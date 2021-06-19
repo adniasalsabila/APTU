@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.TiketFragment"
+    android:background="@color/whiteColor"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".ui.activity.LetsTour"
+            android:paddingBottom="30dp"
+            >
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Masukkan Informasi Anda"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.213"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/t_nama"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="NAMA LENGKAP"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info" />
+
+        <EditText
+            android:id="@+id/et_nama_ticket"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/whiteColor"
+            android:backgroundTint="#EFE9E9"
+            android:ems="10"
+            android:padding="10dp"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_nama" />
+
+        <TextView
+            android:id="@+id/t_email_ticket"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="left"
+            android:text="EMAIL"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_nama_ticket" />
+
+        <EditText
+            android:id="@+id/et_email_ticket"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_form"
+            android:backgroundTint="#EFE9E9"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_email_ticket" />
+
+        <TextView
+            android:id="@+id/t_no_hp_ticket"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="NO. HANDPHONE"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_email_ticket" />
+
+        <EditText
+            android:id="@+id/et_no_hp_ticket"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_form"
+            android:backgroundTint="#EFE9E9"
+            android:ems="10"
+            android:inputType="phone"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_no_hp_ticket" />
+
+        <TextView
+            android:id="@+id/t_alamat_ticket"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="ALAMAT LENGKAP - PRIBADI/INSTANSI/PERUSAHAAN (MOHON DIISI BERIKUT DESA/KELURAHAN, KECAMATAN, KOTA/KABUPATEN)"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_no_hp_ticket" />
+
+        <EditText
+            android:id="@+id/et_alamat_ticket"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_form"
+            android:backgroundTint="#EFE9E9"
+            android:ems="10"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_alamat_ticket" />
+
+        <TextView
+            android:id="@+id/t_kepentingan_ticket"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="KEPENTINGAN PRIBADI/INSTANSI (MOHON DIISI PRIBARI ATAU NAMA INSTANSI/PERUSAHAAN)"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_alamat_ticket" />
+
+        <EditText
+            android:id="@+id/et_kepentingan_ticket"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_form"
+            android:backgroundTint="#EFE9E9"
+            android:ems="10"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_kepentingan_ticket" />
+
+        <TextView
+            android:id="@+id/t_ringkasan_ticket"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="RINGKASAN KEPERLUAN / TUJUAN LAYANAN YANG DIBUTUHKAN"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_kepentingan_ticket" />
+
+        <EditText
+            android:id="@+id/et_ringkasan_ticket"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_form"
+            android:backgroundTint="#EFE9E9"
+            android:ems="10"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_ringkasan_ticket" />
+
+            <Button
+                android:id="@+id/btn_kirim_tiket"
+                android:layout_width="124dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="#5CB431"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="KIRIM"
+                android:textAllCaps="false"
+                android:textColor="#E8E8E8"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_ringkasan_ticket" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">APTU</string>
+    <string name="btn_splash">Mulai</string>
+    <string name="btn_splash1">Masuk</string>
+
+    <!--Register-->
+    <string name="et_nik">NIK/NIP</string>
+    <string name="et_nama">Nama Lengkap</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="daftar">Sudah memiliki akun? Masuk disini</string>
+    <string name="btn_link_login">Masuk</string>
+    <string name="btn_link_logout">Masuk</string>
+    <string name="register">Daftar</string>
+    <!--login    -->
+    <string name="katasandi">Lupa password?</string>
+    <string name="btn_login">Masuk</string>
+    <string name="no_akun">Belum punya akun? Daftar disini</string>
+    <string name="btn_link_daftar">Daftar</string>
+    <!--logout    -->
+    <string name="btn_logout">Logout</string>
+    <!--onBoarding    -->
+    <string name="tv_penjelasan"> Aplikasi Layanan Terpadu (Up-To) merupakan aplikasi pelayanan KPKNL Bandung dengan menggunakan platform android.
+        Aplikasi APTU menjadi perantara antara customer dan pegawai dalam menyelesaikan masalah yang diajukan.
+
+   Terdapat beberapa layanan yang disediakan pihak KPKNL Bandung, antara lain :
+1. Pelayanan Kekayaan Negara
+2. Pelayanan Lelang
+3. Pelayanan Umum
+4. Pelayanan Penilai
+5. Pelayanan Piutang Negara</string>
+    <string name="btn_onboarding1">Selanjutnya</string>
+    <string name="btn_onboarding2">Selanjutnya</string>
+    <string name="btn_onboarding3">Selanjutnya</string>
+    <string name="btn_onboarding4">Selanjutnya</string>
+    <string name="btn_onboarding5">Selanjutnya</string>
+    <string name="btn_onboarding6">Selanjutnya</string>
+    <string name="btn_penjelasan1">Pelayanan Kekayaan Negara</string>
+    <string name="btn_penjelasan2">Pelayanan Lelang</string>
+    <string name="btn_penjelasan3">Pelayanan Umum</string>
+    <string name="btn_penjelasan4">Pelayanan Penilai</string>
+    <string name="btn_penjelasan5">Pelayanan Piutang Negara</string>
+    <string name="tv_supevisior">Tiket Supervisior</string>
+    <string name="tv_jadwal">Jadwal</string>
+
+</resources>
